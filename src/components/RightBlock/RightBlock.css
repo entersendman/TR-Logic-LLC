@@ -1,0 +1,12 @@
+.RightBlock {
+  max-width: 200px;
+  width: 100%;
+  background-color: pink;
+  padding: 5px;
+  margin: 0px 10px 10px 0px;
+  max-height: calc(100vh - 40px);
+  position: sticky;
+  -webkit-position: sticky;
+  top: 41px;
+  overflow: auto;
+}

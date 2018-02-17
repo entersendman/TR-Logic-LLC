@@ -1,0 +1,35 @@
+.SideDrawer{
+	position: absolute;
+	width: 100%;
+	max-width: 300px;
+	height: calc(100% - 40px);
+	top: 40px;
+	z-index: 200;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: transform 0.3s ease-out;
+  background-color: #eee;
+	opacity: 0;
+}
+
+.OpenLeft {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.CloseLeft {
+	transform: translateX(-100%);
+	transition:  0.3s ease-out;
+}
+.OpenRight {
+	opacity: 1;
+	transform: translateX(0);
+	right: 0;
+}
+
+.CloseRight {
+	transform: translateX(100%);
+	transition:  0.3s ease-out;
+	right: 0;
+}

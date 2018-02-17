@@ -1,0 +1,19 @@
+.Layout {
+  position: relative;
+  max-width: 1024px;
+  width: 100%;
+  background-color: #afeeee;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+
+.Content {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
